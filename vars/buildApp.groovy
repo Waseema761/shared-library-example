@@ -1,4 +1,3 @@
 def call() {
-    echo "Building application using Maven"
-    sh "mvn clean package -DskipTests"
+    echo "Hello from Jenkins Shared Library"
 }
